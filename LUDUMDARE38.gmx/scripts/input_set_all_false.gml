@@ -1,0 +1,10 @@
+K_Up = false;
+K_Right = false;
+K_Down = false;
+K_Left = false;
+K_H = false;
+K_V = false;
+K_Ctrl = false;
+K_Space = false;
+M_Distance = 1;
+M_Dir = 90;

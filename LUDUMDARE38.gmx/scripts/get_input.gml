@@ -1,0 +1,13 @@
+input_set_all_false();
+K_Up = (keyboard_check(ord("W")));
+K_Right = (keyboard_check(ord("D")));
+K_Down = (keyboard_check(ord("S")));
+K_Left = (keyboard_check(ord("A")));
+K_H = (K_Right or K_Left);
+K_V = (K_Up or K_Down);
+K_Ctrl = (keyboard_check(vk_control));
+K_Space = (keyboard_check(vk_space));
+M_Distance = point_distance(x,y,mouse_x,mouse_y);
+M_Dir = point_direction(x,y,mouse_x,mouse_y);
+M_Left = mouse_check_button(mb_left);
+M_LeftP = mouse_check_button_pressed(mb_left);
